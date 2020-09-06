@@ -1,13 +1,20 @@
-# Unit 4 Project
----
+# Classification - Loan Approval
 
-This is my Unit 4 Project
+Building Logistic Regression, KNN and Decision Tree models to predict whether a client will default on their loan and should be pre-approved. To compare each model's performance we use the Recall Score. Including client presentation. 
 
-## How to load virtual environment to run project
----
+The models includes the use of:
 
-You can install the python virtual environment by typing this into the command line
+* Decision Tree
+* Random Forest
+* AdaBoost
+* Gradient Boost
+* XGradient Boost
+* CatBoost
 
-```bash
-pip3 install -r requirements.txt
-```
+and the following libraries:
+
+* SKLearn (Model-building)
+* Seaborn (Visualization)
+* PyMySQL (Datapull)
+
+My Model was able to correctly identify defaulting customers **100%** of the time.
